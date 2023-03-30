@@ -27,8 +27,8 @@ export const Customer = () => {
     axios
       .get('https://admin.tomedes.com/api/v1/get-reviews?page=1')
       .then((response) => {
-        // setReviews(response.data.data.slice(0, 2));
-        setReviews(response.data.data);
+        setReviews(response.data.data.slice(4,6));
+        // setReviews(response.data.data);
       })
       .catch((error) => {
         console.error(error);
@@ -52,19 +52,19 @@ export const Customer = () => {
         <div className="customer-heading">
         <h1>What Our Customers Say</h1>
         </div>
-        <div className="customer-review">
+        {/* <div className="customer-review">
             <div className="customer-review1">
             <CustomerReview img={patient1} heading={reviews[1].Reviews} name={reviews[1].Name} patient="Patient" />
             </div>
             <div className="customer-review1">
             <CustomerReview img={patient2} heading={reviews[4].Reviews} name={reviews[4].Name} patient="Patient" />
             </div>
-        </div>
+        </div> */}
 
-        {/* <div className="customer-review">
+        <div className="customer-review">
         {reviews.map((review) => (
           <div className="customer-review1" key={review.ID}>
-          <CustomerReview img={patient2} heading={review.Reviews} name={review.Name} patient="Patient" />
+          <CustomerReview img={patient2} heading={review.Reviews.slice(0,150)} name={review.Name} patient="Patient" />
           </div>
         // <div className="bg-white rounded-lg shadow p-6" key={review.ID}>
         //   <h2 className="text-lg font-bold">{review.Name}</h2>
@@ -72,7 +72,7 @@ export const Customer = () => {
         // </div>
       ))}
 
-        </div> */}
+        </div>
     </div>
   )
 }
