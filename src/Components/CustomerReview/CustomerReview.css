@@ -1,0 +1,80 @@
+.customer-review-container {
+    position: relative;
+}
+
+.customer-review-card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+    height: 294px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+
+
+}
+
+.customer-review-card .heading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    width: 442px;
+    color: #002348;
+
+}
+
+.customer-detail {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.customer-info .customer-name {
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+
+}
+
+.customer-patient {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #002348;
+}
+
+.oval {
+    height: 83.2977066040039px;
+    width: 83.2977066040039px;
+    background: #007FF4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 88.2%;
+    top: -9%;
+}
+
+.oval p {
+    height: 68px;
+    width: 20px;
+    font-family: Helvetica;
+    font-size: 59px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}

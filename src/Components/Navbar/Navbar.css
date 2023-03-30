@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    color: #007FF4;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-color:#ECF4FF; */
+    position: relative;
+    top: -241px;
+    padding: 10px 96px;
+}
+
+.leftoval {
+    position: relative;
+    z-index: -1;
+    height: 260px;
+    width: 300px;
+}
+
+/* .rightOval{
+    position: relative;
+    z-index: -1;
+    
+} */
+.nav-brand-name .brand-name-care {
+    /* color: orange; */
+    color: #FF9F6A;
+
+}
+
+.nav-list {}
+
+.nav-btn {
+    /* Width:170px;
+    Height:50px; */
+    background: #007FF4;
+    border-radius: 25px;
+    color: white;
+    padding: 0.4rem 2rem;
+}
+
+
+.nav-list .nav-item:hover {
+    color: #0073FF;
+    font-weight: 700;
+
+}
+
+.nav-list .nav-btn:hover {
+    background-color: #0073FF;
+}

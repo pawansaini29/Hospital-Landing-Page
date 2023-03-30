@@ -1,0 +1,26 @@
+.customer-container {
+    height: 600px;
+    background: #F8FDFF;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.customer-container h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    color: #003B79;
+    margin-left: 35px;
+}
+
+.customer-review{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+

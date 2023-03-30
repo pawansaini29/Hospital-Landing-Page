@@ -1,0 +1,32 @@
+.doctors-container {
+    background: #F8FDFF;
+    height: 955px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctors-container .doctors-heading h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: center;
+    color: #003B79;
+}
+
+.doctors-container .doctors-subheading p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 546px;
+
+}
+
+.doctors-card {
+    display: flex;
+    gap: 1.3rem;
+}

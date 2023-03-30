@@ -1,0 +1,79 @@
+.clinic-container {
+    height: 900px;
+    top: 1797px;
+    background-color: #ffffff;
+    display: flex;
+    flex-basis: 50%;
+    padding: 1rem;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.clinic-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    left: 6%;
+
+}
+
+.clinic-container h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 78px;
+    color: #003B79;
+}
+
+.clinic-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #002348;
+    height: 78px;
+    width: 570px;
+}
+
+.clinic-container button {
+    background: #007FF4;
+    border-radius: 30px;
+    padding: 0.9rem 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.clinic-right {
+    position: relative;
+    padding: 1rem;
+}
+
+.clinic-right .clCard1 {
+    position: absolute;
+    left: 169.24%;
+    top: -842.22%;
+}
+
+.clinic-right .clCard1 img {
+    width: 79px;
+    height: 153px;
+}
+.clinic-right .clCard2 {
+    position: absolute;
+    left: 863.24%;
+    top: -236%;
+}
+.clinic-right .clCard3 {
+    position: absolute;
+    left:169.24%;
+    top: 381.78%;
+}
+.clinic-right .clCard3 img {
+    width: 186px;
+    height: 135px;
+}

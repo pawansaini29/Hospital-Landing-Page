@@ -1,0 +1,42 @@
+body {
+    background-color: #ECF4FF;
+}
+
+.service-container {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.service-container .heading h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    text-align: center;
+    color: #003B79;
+}
+
+.service-container .sub-heading p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: #002348;
+    width: 600px;
+}
+
+.service-container .service-card {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.service-card .card:hover{
+    color: white;
+}
